@@ -1,0 +1,34 @@
+.explore{
+    margin-top: 100px;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        &-logo{
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 65px;
+            letter-spacing: 0.01em;
+            text-transform: capitalize;
+        }
+        &-ready{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 29px;
+            letter-spacing: -0.3px;
+            padding: 24px 74px 23px 69px;
+            background: #040404;
+            border: none;
+        }
+        &-started{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 29px;
+            letter-spacing: -0.3px;
+            color: #000000;
+            padding: 24px 74px 23px 69px;
+            background: #FFA343;
+            border-radius: 8px; 
+            border-color: #FFA343;
+        }
+    }
+}

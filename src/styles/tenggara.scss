@@ -1,0 +1,58 @@
+.tenggara{
+    position: relative;
+    top: -150px;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-img{
+            height: 720px;
+            width: 598px;
+            background: url(../images/tenggara.png) center/cover no-repeat;
+        }
+        &-text{
+            display: flex;
+            flex-direction: column;
+            row-gap: 27px;
+        }
+        &-subtitle{
+            width: 323px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+            color: #FBD784;
+            position: relative;
+            left: 104px;
+            &::before{
+                content: '';
+                position: absolute;
+                width: 72px;
+                height: 2px;
+                background-color: #FBD784;
+                left: -104px;
+                top: 12px;
+            }
+        }
+        &-title{
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 87px;
+        }
+        &-description{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 32px;
+        }
+        &-more{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            color: #FBD784 !important;
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+        }
+    }
+}

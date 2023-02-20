@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-align: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    outline: none !important;
+}
+
+body{
+    background: #040404;
+}
+
+.container{
+    max-width: 1750px;
+    margin: 0 auto;
+}
+.containerSmall{
+    max-width: 1461px;
+    margin: 0 auto;
+}
+
+.top__content{
+    background: url(../images/Background.png) center/cover no-repeat;
+    height: 1573px;
+}
+
+a{
+    color: #FFFFFF !important;
+}
+
+@import "./header.scss";
+@import "./discover.scss";
+@import "./tenggara.scss";
+@import "./slider.scss";
+@import "./indonesia.scss";
+@import "./explore.scss";
+@import "./footer.scss";
