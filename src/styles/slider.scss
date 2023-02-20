@@ -21,7 +21,7 @@
                 width: 72px;
                 height: 2px;
                 background-color: #FBD784;
-                left: 580px;
+                margin-left: -80px;
                 top: 12px;
             }
             &::after{
@@ -30,7 +30,7 @@
                 width: 72px;
                 height: 2px;
                 background-color: #FBD784;
-                right: 580px;
+                margin-right: -80px;
                 top: 12px;
             }
         }
